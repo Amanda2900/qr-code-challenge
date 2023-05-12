@@ -6,13 +6,6 @@
   font-size: 0.8rem;
 }
 
-body {
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center;
-  min-height: 100vh;
-}
-
 img {
   border-radius: 10px;
   width: 275px;
@@ -22,11 +15,12 @@ img {
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
   padding: 15px;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .text {
@@ -50,4 +44,3 @@ img {
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
-
